@@ -7,7 +7,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="PnP keyboard shortcuts sample"/>
+  <DisplayName DefaultValue="QuiltLabs.ai demo"/>
   <Description DefaultValue="Shows how to add keyboard shortcuts to your Office Add-in."/>
   <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/excel-keyboard-shortcuts/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/excel-keyboard-shortcuts/assets/icon-80.png"/>
@@ -19,7 +19,7 @@
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/excel-keyboard-shortcuts/src/taskpane.html"/>
+    <SourceLocation DefaultValue="https://ms2666.github.io/dummywebsite/excel-keyboard-shortcuts/src/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -74,7 +74,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
-        <bt:Url id="ContosoAddin.Url" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/excel-keyboard-shortcuts/src/taskpane.html" />
+        <bt:Url id="ContosoAddin.Url" DefaultValue="https://ms2666.github.io/dummywebsite/excel-keyboard-shortcuts/src/taskpane.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!" />
@@ -87,5 +87,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
-  <ExtendedOverrides Url="https://officedev.github.io/Office-Add-in-samples/Samples/excel-keyboard-shortcuts/src/shortcuts.json"></ExtendedOverrides>
+  <ExtendedOverrides Url="https://ms2666.github.io/dummywebsite/excel-keyboard-shortcuts/src/shortcuts.json"></ExtendedOverrides>
 </OfficeApp>

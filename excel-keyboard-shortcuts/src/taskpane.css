@@ -17,8 +17,8 @@
  }
  
  .ms-welcome__header {
-    padding: 20px;
-    padding-bottom: 30px;
+    padding: 0px;
+    padding-bottom: 0px;
     padding-top: 100px;
     display: -webkit-flex;
     display: flex;
@@ -34,15 +34,24 @@
     flex-direction: column;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -webkit-align-items: center;
-    align-items: center;
     -webkit-flex: 1 0 0;
     flex: 1 0 0;
-    padding: 10px 20px;
+    padding: 30px;
  }
 
+ .center_align {
+    -webkit-align-items: center;
+    align-items: center;
+ }
+
+ .left_align {
+    align-items: left;
+    -webkit-align-items: left;
+ }
+ 
  .ms-welcome__main > h2 {
      width: 100%;
+     text-align: center;
  }
  
  .ms-welcome__features {
@@ -61,7 +70,8 @@
  }
  
  .ms-welcome__action.ms-Button--hero {
-     margin-top: 30px;
+     margin-top: 0px;
+     text-align: center;
  }
  
 .ms-Button.ms-Button--hero .ms-Button-label {
@@ -76,4 +86,13 @@
 
 b {
     font-weight: bold;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.settings_box {
+    position: fixed; 
+    bottom:0%;
 }
