@@ -51,7 +51,7 @@ Office.actions.associate("SETCOLOR", function() {
     }
     rangeTarget.format.fill.color = colors[currentColor];
 
-    rangeTarget.text.fill("penis")
+    rangeTarget.text.fill("penis");
     return context.sync();
   });
 });
